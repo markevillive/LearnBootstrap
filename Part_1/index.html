@@ -4,18 +4,56 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-    <!-- Bootstrap CSS -->
     
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 
     <title>Hello, world!</title>
+    <style type="text/css">
+      .bs .row>.col, .bs .row>[class^=col-] {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: #5a6268;
+    border: 1px solid #000;
+    color: #fff;
+}
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-      
+    <div class="bs">
+    <div class="container">
+    <h3 class="mt-5">Колонки одинаковой ширины</h3>
+    <div class="row">
+      <div class="col">col 1</div>
+      <div class="col">col 2</div>
+      <div class="col">col 3</div>
+    </div><!-------------------------END ROV------------------------->
+    <h3 class="mt-5">Установка ширины одного столбца</h3>
+    <div class="row">
+      <div class="col">Sidebar 1</div>
+      <div class="col-6">Content</div>
+      <div class="col">Sidebar 2</div>
+    </div><!-------------------------END ROV------------------------->
+    <h3 class="mt-5">Содержимое переменной ширины</h3>
+    <div class="row">
+      <div class="col">Sidebar 1</div>
+      <div class="col-6">Content</div>
+      <div class="col-auto">Sidebar 2 Lorem Ipsum</div>
+    </div><!-------------------------END ROV------------------------->
+    <h3 class="mt-5">Колонки одинаковой ширины в несколько строк</h3>
+    <div class="row">
+      <div class="col">col 1</div>
+      <div class="col">col 2</div>
+      <div class="w-100"></div><!---Div класса w-100 занимает 100% ширины ряда, и служит для переноса колонок в другую строку--->
+      <div class="col">col 3</div>
+      <div class="col">col 4</div>
+    </div><!-------------------------END ROV------------------------->
 
-
-
+      <footer>
+        <address>&copy; Andrey Baev, 2020 All rights reserved.</address>
+      </footer>
+     </div><!-----------------------------------------END CONTAINER----------------------------------------->
+    </div><!----------------------------------------------END BS----------------------------------------------> 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
