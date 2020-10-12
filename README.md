@@ -67,7 +67,24 @@ Bootstrap - это CSS фреймворк, упрощающий работу в�
 - Переполнение ряда.
 - Сброс отступов
 
-### Lesson 6
+### Lesson 6 Выравнивание
+
+ Изученные темы:
+ 
+ - Выравнивание ряда по вертикали.
+   - Класс align-items-start
+   - Класс align-items-center
+   - Класс align-items-end
+ -  Выравнивание колонок по вертикали
+    -  class .align-self-start
+    - class .align-self-center
+    - class .align-self-end
+ -  Выравнивание колонок по горизонтали
+    -  Класс justify-content-start
+    - Класс justify-content-center
+    - Класс justify-content-end
+    - Класс justify-content-around
+    - Класс justify-content-between
 ### Lesson 7
 ### Lesson 8
 ### Lesson 9
